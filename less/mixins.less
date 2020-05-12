@@ -1,1 +1,16 @@
 // Mixins in here
+.align(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btn-destination(@color:@main-bg, @background:@button-bg, @width:100%){
+    color:@color;
+    background-color:@background;
+    width:@width;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+    
+}
