@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -164,6 +164,8 @@ p {
 a {
   line-height: 1.5;
   font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: 600;
 }
 img {
   max-width: 100%;
@@ -175,7 +177,20 @@ img {
   margin: 0 auto;
 }
 .navigation {
+  padding: 1% 0;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigation .navBar {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+.navigation .navBar a {
+  color: #212529;
 }
 .footer {
   width: 100%;
@@ -187,9 +202,6 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home .header-section {
-  margin: 30px 0;
 }
 .home .header-section .img-header {
   padding-bottom: 20px;
