@@ -176,20 +176,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
+.navigate {
   padding: 1% 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navigate .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px dashed #C0C0C0;
 }
-.navigation .navBar {
+.navigate .navigation .navBar {
   width: 45%;
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid black;
 }
-.navigation .navBar a {
+.navigate .navigation .navBar a {
   color: #212529;
 }
 .footer {
