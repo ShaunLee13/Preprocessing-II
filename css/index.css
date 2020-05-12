@@ -204,6 +204,10 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home .header-section {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1%;
+}
 .home .header-section .img-header {
   padding-bottom: 20px;
 }
