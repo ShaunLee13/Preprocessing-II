@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -142,6 +142,7 @@ h3,
 h4,
 h5 {
   font-family: 'Indie Flower', cursive;
+  font-weight: 600;
 }
 h1 {
   font-size: 4rem;
@@ -158,6 +159,11 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  font-weight: 600;
+}
+a {
+  line-height: 1.5;
+  font-size: 1.6rem;
 }
 img {
   max-width: 100%;
@@ -167,6 +173,9 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navigation {
+  display: flex;
 }
 .footer {
   width: 100%;
@@ -178,6 +187,12 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-section {
+  margin: 30px 0;
+}
+.home .header-section .img-header {
+  padding-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
