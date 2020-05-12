@@ -147,6 +147,11 @@ h5 {
 h1 {
   font-size: 4rem;
 }
+@media (max-width:500px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
@@ -185,10 +190,22 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width:500px) {
+  .navigate .navigation {
+    flex-direction: column;
+    padding-top: 2%;
+  }
+}
 .navigate .navigation .navBar {
   width: 45%;
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width:500px) {
+  .navigate .navigation .navBar {
+    padding-top: 2%;
+    width: 100%;
+  }
 }
 .navigate .navigation .navBar a {
   color: #212529;
