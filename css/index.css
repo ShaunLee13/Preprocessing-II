@@ -348,6 +348,11 @@ img {
   justify-content: center;
   align-items: center;
 }
+.home .content-pick .destination .btn:hover {
+  color: #007f7f;
+  background-color: #FFFFFF;
+  border: 1px solid #007f7f;
+}
 @media (max-width:500px) {
   .home .content-pick .destination .btn {
     color: #FFFFFF;
@@ -356,5 +361,10 @@ img {
     height: 40px;
     border-radius: 10px;
     font-size: 2rem;
+  }
+  .home .content-pick .destination .btn:hover {
+    color: #17A2B8;
+    background-color: #FFFFFF;
+    border: 1px solid #17A2B8;
   }
 }
