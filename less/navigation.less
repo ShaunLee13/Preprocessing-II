@@ -1,1 +1,32 @@
 // Navigation Styles here
+
+.navigate{
+    padding: 1% 0;
+    border-bottom: 2px dashed @navigation-border;
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media @mobile{
+            flex-direction: column;
+            padding-top: 2%;
+        }
+
+        .navBar {
+            width:45%;
+            display: flex;
+            justify-content: space-evenly;
+
+            @media @mobile{
+                padding-top: 2%;
+                width:100%;
+            }
+
+            a{
+                color:@font-color;
+            }//End of .navbar-a
+        }//End of .navBar
+    }//End of .navigation
+}//End of .navigate

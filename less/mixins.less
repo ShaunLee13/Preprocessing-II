@@ -1,1 +1,21 @@
 // Mixins in here
+.align(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}//End of Align Mixin
+
+.btn-destination(@color:@main-bg, @background:@button-bg, @width:100%){
+    color:@color;
+    background-color:@background;
+    width:@width;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+
+    &:hover{
+        color: @background;
+        background-color: @color;
+        border: 1px solid @background;
+    }
+}//End of Button Mixin
